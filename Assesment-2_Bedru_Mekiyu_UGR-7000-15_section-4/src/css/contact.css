@@ -1,0 +1,233 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: white;
+}
+
+header {
+    margin-left: 120px;
+}
+
+.slogan {
+    margin-left: 280px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 0px;
+    margin-left: 45px;
+
+}
+
+span {
+    color: orange;
+}
+
+header ul {
+
+    margin-top: 60px;
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+
+}
+
+ul li {
+    margin-right: 10px;
+
+
+}
+
+header ul li a {
+
+    text-decoration: none;
+    background-color: rgb(170, 216, 2);
+    border-radius: 6px;
+    color: white;
+    padding: 10px;
+}
+
+header ul li a:hover {
+    background-color: orange;
+}
+
+header ul li a:active {
+    background-color: orange;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(245, 244, 244);
+}
+
+main .div1 {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 40px;
+
+    color: rgb(128, 128, 128);
+}
+
+main .div1 article {
+    margin: 15px;
+    width: 200px;
+    height: auto;
+}
+
+main .div1 aside {
+    margin-left: 30px;
+
+}
+
+.div11 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+.div11 input {
+    border-color: gray solid;
+
+    width: 400px;
+    height: 20px;
+    margin-top: 5px;
+
+}
+
+.div11 textarea {
+
+    border-color: gray;
+    width: 400px;
+    height: 100px;
+
+}
+
+button {
+    width: 80px;
+    border-color: gray solid;
+
+}
+
+main .imagegalary {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color: #333;
+}
+
+main .imagegalary article {
+    margin-right: 35px;
+    width: 300px;
+    height: auto;
+}
+
+main .imagegalary .image {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.h2 {
+    margin-left: 26px;
+
+}
+
+
+main .imagegalary .image img {
+    height: 80px;
+    width: 80px;
+    margin-left: 6px;
+
+}
+
+dl dt {
+    color: black;
+}
+
+h2 {
+    color: rgb(170, 216, 2);
+}
+
+.imagegalary h2 {
+    color: white;
+
+}
+
+.imagegalary p {
+    color: rgb(222, 210, 210);
+}
+
+.imagegalary a {
+    color: rgb(170, 216, 2);
+}
+
+
+main aside ol li {
+    list-style-type: none;
+    margin-bottom: 12px;
+}
+
+main aside ol li a {
+
+    color: black;
+    text-decoration: none;
+}
+
+.about {
+    height: 70px;
+    width: 70px;
+    float: left;
+    padding: 12px;
+}
+
+.Contact {
+    color: rgb(170, 216, 2);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p a {
+    color: rgb(170, 216, 2);
+}
+
+footer ul {
+
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+footer ul li {
+    margin-right: 10px;
+
+}
+
+footer ul li a {
+
+    text-decoration: none;
+
+    color: white;
+    padding: 10px;
+}
+
+footer ul li a:hover {
+    background-color: rgb(170, 216, 2);
+}
+
+footer ul li a:active {
+    background-color: orange;
+}
